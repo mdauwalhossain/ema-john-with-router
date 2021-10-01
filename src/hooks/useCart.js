@@ -19,6 +19,6 @@ const useCart = products =>{
         }
 
     },[products])
-    return [cart];
+    return [cart, serCart];
 }
 export default useCart;
